@@ -2,7 +2,7 @@ resource aws_vpc "project_vpc"{
   cidr_block = var.vpc-cidr
 
   tags = {
-    "Name" = "first_test_project_vpc"
+    "Name" = "second_test_project_vpc"
   }
 }
 
