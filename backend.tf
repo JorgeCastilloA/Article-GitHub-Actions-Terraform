@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket = ""
+    bucket = "tf-gh-aws-bucket"
     key    = "jenkins/project-actions.tfstate"
-    region = ""
+    region = "us-east-1"
   }
 }
 
